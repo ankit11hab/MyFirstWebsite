@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Payment Form
+	</title>
+</head>
+<body>
+	<style>
+
+		.submit{
+		padding: 10px 22px;
+		background-color: #404040; 
+		color:White;
+		font-size: 20px;
+		}
+		.submit:hover{
+		background-color:#686868;
+		padding: 11px 23px;
+		}
+		
+		/*.container:hover .overlay 
+		{
+ 		 width: 100%;
+		 height: 30%;
+		 align: right;
+		 opacity: 0.4;
+		}
+
+		.image {
+ 		display: block;
+		
+  		height: auto;
+		}
+		.overlay 
+		{
+ 		 position: absolute;
+ 		 bottom: 0;
+ 		 left: 0;
+		 right: 0;
+		 background-color: white;
+ 		 overflow: hidden;
+		 width: 0;
+  		 height: 100%;
+ 		 transition: .5s ease;
+		}
+
+		.text 
+		{
+ 		 color: black;
+		 opacity: 1;
+  		 font-size: 20px;
+ 		 position: absolute;
+ 		 top: 50%;
+ 		 left: 50%;
+ 		 -webkit-transform: translate(-50%, -50%);
+		 -ms-transform: translate(-50%, -50%);
+ 		 transform: translate(-50%, -50%);
+ 		 white-space: nowrap;
+		}*/
+
+		.search{
+		width: 30%;
+		padding: 11px 20px;
+ 		border: 0px solid #ccc;
+		border-radius: 25px;
+		}
+
+		.topnav {
+ 		 background-color:   #404040;
+ 		 overflow: hidden;
+		border-radius: 10px;
+		}
+		.topnav a {
+ 		 float: left;
+ 		 color: white;
+		display: block;
+ 		 text-align: center;
+		  padding: 20px 15px;
+		  text-decoration: none;
+ 		 font-size: 25px;
+		}
+		.topnav a:hover {
+		  background-color: #ddd;
+ 		 color: black;
+		}
+		.topnav a.active {
+ 		 background-color: #ab8f73;
+ 		 color: white;
+		}
+		.topnav .search-container button:hover {
+  		background: #ccc;
+		}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+}
+		
+	</style>
+	<p></p>
+	<div class = "topnav">
+	   <a href = "D:\CS\HTML\Payment Form\home.html">Home</a>
+	   <a href = "D:\CS\HTML\Payment Form\Maths.html"> Courses</a>
+	   <a href = "D:\CS\HTML\Payment Form\contact.html" target = "_blank"> Contact </a>
+	   <a href = "D:\CS\HTML\Payment Form\payment_form.html" class = "active"> Payment </a>
+	<p><center><input type = "text" placeholder = "Search for anything" ALIGN = "right" class="search"></center></div></p>
+	<div class="w3-container w3-center w3-animate-left">
+	<h1 class="w3-center w3-animate-left">Payment</h1></div>
+	</h1>
+	<article>
+	<div>
+	<form action = "" class = "1st">
+		<img src = "Capture.PNG" alt = "" width="300" class="first">
+		<fieldset  style="border:orange; border-width:3px; border-style:solid;">
+		<legend><h2 style = "color: Green; border: black">Contact info</h2></legend>
+		<h3><img src="5.jpg" width = "500" ALIGN="right"></h3>
+
+
+
+		Name <br> <input type = "text" name = "name" id = "name" style = "width: 35%; padding: 12px 20px;" placeholder = "Enter Your Name"></h3>
+		<p>
+			Male <input type = "radio" name = "gender" id = "male">
+			Female <input type = "radio" name = "gender" id = "female">
+		</p>
+		<h3>Email<br> <input type = "email" name = "em" id = "em" style = "width: 35%; padding: 12px 20px;" placeholder = "eg:-abcd@example.com"></h3>
+		<h3>City<br> <input type = "text" name = "city" id = "city" style = "width: 35%; padding: 12px 20px;" placeholder = "City"></p>
+		</h3>
+			<h3>Pincode<br> <input type = "number" name = "pin" id = "pin" style = "width: 35%; padding: 12px 20px;" placeholder = "Enter pincode">
+		</p>
+		</fieldset>
+		<fieldset  style="border:orange; border-width:3px; border-style:solid;">
+		<legend><h2 style = "color: Green;">Card details</h2></legend>
+		<h3>
+			<img src="6.PNG" width = "450" ALIGN="right">Card type<br>
+			<select name = "card type" id = "c" style = "width: 38.5%; padding: 12px 20px; background-color: #E8E8E8;">
+				<option value = ""><center>--select--</center></option>
+				<option value = "visa">Visa</option>
+				<option value = "rupay">Rupay</option>
+				<option value = "mastercard">Mastercard</option>
+				<option value = "others">Others</option>
+			</select>
+		</h3>
+		<h3>Card number<br> <input type = "number" name = "card" id = "card" style = "width: 35%; padding: 12px 20px;" placeholder = "Enter Card Number"></h3>
+		<h3>CVV <br><input type = "password" name = "cvv" id = "cvv" style = "width: 35%; padding: 12px 20px;" placeholder = "CVV"></p>
+		<p>I agree to the <a href = "D:\CS\HTML\Payment Form\termsofuse.html" target = "_blank">Terms of Use</a>, <a href = "refund.html" target =" _blank">Refund Policy</a>, and <a href = "privacy.html" target =" _blank">Privacy Policy</a>.</p>
+		<h1><button  class = "submit">Submit</button></h1><br>
+		</fieldset>
+		</div>
+		</article>
+</body>
+</html>

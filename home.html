@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>my website</title>
+	<style>
+	
+		.home
+		{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin: 20px;
+		padding: 200px;
+		height: 10vh;
+		margin-left: 100px;
+		background-image: url("back1.jpg");
+		margin-right: 100px; position: relative;
+ 		 animation-name: mymove;
+		  animation-duration: 3s;
+		}
+
+		@keyframes mymove {
+		  from {left: -250px;}
+		  to {left: 0px;}
+		}
+		
+		.goto
+		{
+		padding: 4px 6px;
+		background: #020d14;
+  		  -webkit-box-shadow: 8px 16px 30px 0 rgba(38,37,47,.1);
+ 		  box-shadow: 8px 16px 30px 0 rgba(38,37,47,.1);
+		    border-radius: 10px;
+		color: #fff;
+		}
+
+		.goto:hover
+		{
+		padding: 4px 6px;
+		background:#484848;
+  		  -webkit-box-shadow: 8px 16px 30px 0 rgba(38,37,47,.1);
+ 		  box-shadow: 8px 16px 30px 0 rgba(38,37,47,.1);
+		    border-radius: 10px;
+		color: #fff;
+		}
+		.goto a
+		{
+		 float: left;
+ 		 color: white;
+		display: block;
+ 		 text-align: center;
+		  padding: 10px 10px;
+		  text-decoration: none;
+ 		 font-size: 20px;
+		}
+
+		.intro
+		{
+		background: rgb(233, 233, 233);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		height: 50vh;
+		padding: 0px;
+		margin: 0px;
+		}
+
+		.search{
+		width: 30%;
+		padding: 11px 20px;
+ 		border: 0px solid #ccc;
+		border-radius: 25px;
+		}
+		.topnav {
+ 		 background-color:   #404040;
+ 		 overflow: hidden;
+		border-radius: 10px;
+		}
+		.topnav a {
+ 		 float: left;
+ 		 color: white;
+		display: block;
+ 		 text-align: center;
+		  padding: 20px 15px;
+		  text-decoration: none;
+ 		 font-size: 25px;
+		}
+		.topnav a:hover {
+		  background-color: #ddd;
+ 		 color: black;
+		}
+		.topnav a.active {
+ 		 background-color: #ab8f73;
+ 		 color: white;
+		}
+		
+	</style>
+</head>
+<body >
+	<p></p>
+	
+	<div class = "topnav">
+	   <a href = "D:\CS\HTML\Payment Form\home.html" class = "active">Home</a>
+	   <a href = "D:\CS\HTML\Payment Form\Maths.html"> Courses</a>
+	   <a href = "D:\CS\HTML\Payment Form\contact.html" target = "_blank"> Contact </a>
+	   <a href = "D:\CS\HTML\Payment Form\payment_form.html"> Payment </a>
+	<p><center><input type = "text" placeholder = "Search for anything" ALIGN = "right" class="search"></p></center></div
+	<!--Header-->
+	<div class = "home">
+	<p style = "font-size: 50px; color: #9900cc"> Introduction</p>
+	<p style="font-size:30px"> You will not find anything special in this integrated website except some useful lectures like that of Real Analysis which is tormenting IITGians for years. Untill now I have added only the first few handful lectures of those chapters and I do have a plan of adding some more in the future. </p>
+	<button class = "goto"><a href = "D:\CS\HTML\Payment Form\Maths.html"> Go to Courses section</a></button> 
+	</div>
+
+
+	<!-- Header -->
+	<div class = "intro">
+		<h2> Know our Founder</h2>
+		<img src = "Ankit.jpg" height = "150px">
+		<h3>Ankit Guha</h3>
+		<p><a href = "https://www.facebook.com/ankit.guha.355/" target = "_blank">Facebook</a>&nbsp|&nbsp
+		<a href = "https://www.instagram.com/ankit_guha_2/?hl=en" target = "_blank">Instagram</a>&nbsp|&nbsp
+		<a href = "https://www.linkedin.com/in/ankit-guha-85200717b/" target = "_blank">Linkedin</a></p>&nbsp
+	</div>
+</body>
+</html>
